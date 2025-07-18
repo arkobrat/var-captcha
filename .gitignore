@@ -212,3 +212,6 @@ __marimo__/
 main/
 extracted_characters/
 mismatched_images/
+
+captcha_recognition_model.pth
+model_labels.dat
