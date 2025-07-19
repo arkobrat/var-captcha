@@ -14,8 +14,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
 
 LETTER_IMAGES_FOLDER = "extracted_characters"
-MODEL_FILENAME = "captcha_recognition_model.pth"
-MODEL_LABELS_FILENAME = "model_labels.dat"
+MODEL_FILENAME = "model/captcha_recognition_model.pth"
+MODEL_LABELS_FILENAME = "model/model_labels.dat"
 
 # 3. Dataset and DataLoader
 class CaptchaDataset(Dataset):
