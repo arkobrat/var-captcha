@@ -160,7 +160,7 @@ if __name__ == "__main__":
 
     # 5. Training Setup
     num_classes = 36
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     if torch.backends.mps.is_available():
         device = torch.device("mps")
