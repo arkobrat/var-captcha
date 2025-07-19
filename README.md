@@ -31,7 +31,7 @@ A convolutional neural network (CNN) was used as the CAPTCHA recognition model t
 
 ## Results
 * The segmentation algorithm was able to successfully tokenize 7200 of the 8011 images in the cleaned dataset (i.e, the number of characters returned by the algorithm was the same as the number of labelled characters). The remaining 811 images were left out of the training pipeline.
-* The trained model achieved a training loss of 0.0089, a validation loss of 0.0144 and a validation accuracy of 91.33%.
+* The trained model achieved a training loss of 0.0089, a validation loss of 0.0144, training accuracy of 93.91% and a validation accuracy of 91.33%.
 * Further statistics (refer to `evaluator.ipynb`):
     * Precision: 91.92%
     * Recall: 91.34%
